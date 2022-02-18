@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Keerthiban & Radha</title>
 </head>
 <body>
@@ -22,24 +23,35 @@
         <nav>
             <div>
                 <img src="..\pictures\wedding logo_ccexpress.png" alt="Wedding Logo" class="logo">
-            </div>    
+            </div>
             <div class="links">
                 <a href="..\Temple-page\temple-index.html">Temple</a>
                 <a href="..\Function-page\function-index.html">Reception</a>
                 <a href="https://google.com">Photos</a>
-                <a href="https://forms.gle/MKvzktgRtMGwzErz8">RSVP</a>
-                <div class="threelines"><img src="pictures\threelines.png"></div>
+                <a href="https://google.com">RSVP</a>
             </div>
       </nav>
     </header>
     <main>
+        <div class="visible">
+            <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+      <div class="wrapper">
+         <ul>
+            <li><a href="..\Temple-page\temple-index.html">Temple</a></li>
+            <li><a href="..\Function-page\function-index.html">Reception</a></li>
+            <li><a href="https://google.com">Photos</a></li>
+            <li><a href="https://google.com">RSVP</a></li>
+         </ul>
+      </div>
+        </div>
         <div class="title">
              <h1>Keerthiban & Radha</h1>
              <h2>We Are Getting Married</h2>
              <div class="countdown">00 : 00 : 00 : 00</div> 
              <h2>28.10.2022</h2>
              <div class="button">
-                <button onclick="window.location.href='https://forms.gle/MKvzktgRtMGwzErz8';" class="btn btn1">RSVP</button>
+                <button onmousedown="window.location.href='https://google.com'" class="btn btn1">RSVP</button>
             </div>
         </div>
     </main>

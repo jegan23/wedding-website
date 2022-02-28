@@ -192,7 +192,7 @@ input[type="checkbox"]{
 .pictures {
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));

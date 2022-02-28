@@ -11,10 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Keerthiban & Radha</title>
 </head>
 <body>
@@ -28,43 +27,57 @@
                 <a href="..\Temple-page\temple-index.html">Temple</a>
                 <a href="https://google.com">Photos</a>
                 <a href="https://forms.gle/MKvzktgRtMGwzErz8">RSVP</a>
-                <div class="threelines"><img src="pictures\threelines.png"></div>
             </div>
       </nav>
     </header>
     <main>
-        <section id="about-me">
-            <div class="about-me-container">
-              <div class="about-me-text-container">
+        <div class="visible">
+          <input type="checkbox" id="active">
+          <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <div class="wrapper">
+              <ul>
+                <li><a href="..\Main-page\index.html">Main</a></li>
+                <li><a href="..\Temple-page\temple-index.html">Temple</a></li>
+                <li><a href="https://google.com">Photos</a></li>
+                <li><a href="https://forms.gle/MKvzktgRtMGwzErz8">RSVP</a></li>
+              </ul>
+           </div>
+        </div>
+        <section id="reception-main">
+            <div class="reception-container">
+              <div class="reception-text-container">
                 <h2>Reception</h2>
+                <br></br>
                 <h3>Date & Time</h3>
                 <ul>
                   <li>28.10.2022</li>
                   <li>11.00 AM</1i>
                 </ul>
+                <br></br>
                 <h3>Name & Location</h3>
                  <ul>
                    <li>The Garage</li>
-                   <li><a href="https://goo.gl/maps/hcrTyXbSvFFh362d7">50 Cluny Park Rd, Singapore 257488</a></li>
+                   <li>50 Cluny Park Rd, Singapore 257488</li>
                  </ul>
+                 <br></br>
                 <h3>Description</h3>
                 <ul>
                   <li>XXXXXXXXXXX</li>
                   <li>XXXXXXXXXXX</li>
-                  <li>Please <a href="https://forms.gle/MKvzktgRtMGwzErz8">RSVP</a> to book your spot</li>
+                  <li>Please RSVP to book your spot</li>
                 </ul>
               </div>
               <img
                 src="..\pictures\33424563_458139274625549_5413174190566014976_n.jpg"
                 alt="Reception Photo"
-                class="portrait"
+                class="reception"
               />
             </div>
           </section>
-          <!-- <section id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.220015573006!2d103.8317785!3d1.4418783!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe704666c714f34ee!2sHoly%20Tree%20Sri%20Balasubramaniar%20Temple!5e0!3m2!1sen!2smy!4v1643703918003!5m2!1sen!2smy" 
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </section> -->
+          <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.045415460216!2d103.8155527!3d1.3188678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c30bb3301f42c08!2sThe%20Garage!5e0!3m2!1sen!2smy!4v1646032674477!5m2!1sen!2smy" 
+            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </section>
     </main>
     <footer> 
     </footer>

@@ -248,6 +248,7 @@ main {
 
 #map {
     display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -293,5 +294,9 @@ main {
     .temple {
       padding-top: 5%;
       margin-left: 20px;
+    }
+
+    ul {
+        overflow: hidden;
     }
 }

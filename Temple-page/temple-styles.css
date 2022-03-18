@@ -252,6 +252,9 @@ main {
     margin-right: auto;
 }
 
+::marker {
+    color: darkgreen;
+}
 
 /* Diff media resolution */
 
@@ -277,7 +280,7 @@ main {
     }
 
     ul {
-        overflow: hidden;
+        list-style-type: none;
     }
 
     li {
@@ -294,9 +297,5 @@ main {
     .temple {
       padding-top: 5%;
       margin-left: 20px;
-    }
-
-    ul {
-        overflow: hidden;
     }
 }

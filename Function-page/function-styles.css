@@ -253,6 +253,10 @@ main {
     margin-right: auto;
 }
 
+::marker {
+    color: darkgreen;
+}
+
 
 @media only screen and (max-width: 600px) {
     .reception {
@@ -276,7 +280,7 @@ main {
     }
 
     ul {
-        overflow: hidden;
+        list-style-type: none;
     }
 
     li {
@@ -293,9 +297,5 @@ main {
     .reception {
       padding-top: 5%;
       margin-left: 100px;
-    }
-
-    ul {
-        overflow: hidden;
     }
 }
